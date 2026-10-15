@@ -13,6 +13,16 @@ The project demonstrates two operating cases:
 - **Case 1 — Control + Measurement:** closed-loop process-fluid circulation, FT-01 flow measurement and automatic sump-surge protection.
 - **Case 2 — Flushing + Shutdown:** flush-water operation using all three pumps, isolation of the main process tank and automated system shutdown.
 
+## Project Video
+
+### Journey Video
+
+A short video documenting the team's Stage 2 build journey, including the development and integration of the hydraulic, mechanical and control system.
+
+**[Watch the Finite Element Gang — Stage 2 Journey Video](https://photos.app.goo.gl/5rSF9LaYKav16Jqz6)**
+
+> The video is hosted externally on Google Photos.
+
 ## Repository Contents
 
 ### `documentation/`
