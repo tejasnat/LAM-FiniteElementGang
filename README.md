@@ -6,9 +6,9 @@
 **Challenge:** Lam Research Challenge 3.0  
 **Stage:** Stage 2 — Practical Engineering Challenge
 
-This repository contains the final Stage 2 documentation and ESP32 code developed by **Finite Element Gang** for the automated liquid-flow system.
+This repository contains the final Stage 2 submission, ESP32 automation code, calibration code and project journey video for **Finite Element Gang**.
 
-The project demonstrates two operating cases:
+The project demonstrates:
 
 - **Case 1 — Control + Measurement:** closed-loop process-fluid circulation, FT-01 flow measurement and automatic sump-surge protection.
 - **Case 2 — Flushing + Shutdown:** flush-water operation using all three pumps, isolation of the main process tank and automated system shutdown.
@@ -17,41 +17,24 @@ The project demonstrates two operating cases:
 
 ### Journey Video
 
-A short video documenting the team's Stage 2 build journey, including the development and integration of the hydraulic, mechanical and control system.
+A short video documenting the team's Stage 2 build journey and the development and integration of the hydraulic, mechanical and control system.
 
 **[Watch the Finite Element Gang — Stage 2 Journey Video](https://photos.app.goo.gl/5rSF9LaYKav16Jqz6)**
 
-> The video is hosted externally on Google Photos.
+## Files
 
-## Repository Contents
+- **`LRC_26_0388_Finite_Element_Gang_Stage_2.pdf`** — completed Stage 2 challenge submission containing the hydraulic-system design, P&ID, calculations, experimental measurements, calibration results, flow-response plots, hydraulic theory, fault analysis and submitted code.
+- **`master_state_machine.ino`** — main ESP32 automation program for the complete Case 1 → transition → Case 2 sequence.
+- **`flow_sensor_calibration.ino`** — dedicated FT-01 calibration program used for timed pulse-counting and calibration trials.
 
-### `documentation/`
-
-Contains the completed Stage 2 challenge submission:
-
-- **`LRC_26_0388_Finite_Element_Gang_Stage_2.pdf`** — completed challenge document containing the hydraulic-system design, P&ID, calculations, experimental measurements, calibration results, flow-response plots, hydraulic theory, fault analysis and submitted ESP32 code.
-
-### `code/`
-
-Contains the two ESP32 Arduino codebases used for the project:
-
-- **`code/master/master_state_machine.ino`** — main automation program for the complete Case 1 → transition → Case 2 operating sequence.
-- **`code/calibration/flow_sensor_calibration.ino`** — dedicated FT-01 calibration program used to record pulse count and frequency during controlled calibration trials.
-- **`code/README.md`** — short description of the two programs and their purpose.
-
-## Current Repository Structure
+## Repository Structure
 
 ```text
 LAM-FiniteElementGang/
 ├── README.md
-├── code/
-│   ├── README.md
-│   ├── master/
-│   │   └── master_state_machine.ino
-│   └── calibration/
-│       └── flow_sensor_calibration.ino
-└── documentation/
-    └── LRC_26_0388_Finite_Element_Gang_Stage_2.pdf
+├── LRC_26_0388_Finite_Element_Gang_Stage_2.pdf
+├── master_state_machine.ino
+└── flow_sensor_calibration.ino
 ```
 
 ---
