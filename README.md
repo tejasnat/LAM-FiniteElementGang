@@ -6,14 +6,20 @@
 **Challenge:** Lam Research Challenge 3.0  
 **Stage:** Stage 2 — Practical Engineering Challenge
 
-This repository contains the final Stage 2 submission, ESP32 automation code, calibration code and project journey video for **Finite Element Gang**.
+This repository contains the final Stage 2 submission, ESP32 automation code, calibration code and project videos for **Finite Element Gang**.
 
 The project demonstrates:
 
 - **Case 1 — Control + Measurement:** closed-loop process-fluid circulation, FT-01 flow measurement and automatic sump-surge protection.
 - **Case 2 — Flushing + Shutdown:** flush-water operation using all three pumps, isolation of the main process tank and automated system shutdown.
 
-## Project Video
+## Project Videos
+
+### Challenge Video
+
+The final Stage 2 challenge demonstration video showing the completed setup and system operation.
+
+**[Watch the Finite Element Gang — Stage 2 Challenge Video](https://photos.app.goo.gl/8smPcYf4si7NaiVt7)**
 
 ### Journey Video
 
